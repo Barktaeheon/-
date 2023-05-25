@@ -1,0 +1,181 @@
+# 오후 8:35 2022-10-08
+
+CImGuiClass_Tool, CImGuiClassManager_Tool, CMainView_Tool 추가
+
+
+CImGuiClass는 Tool 클래스 제작용으로, 이 클래스 상속 받아서 쓰시면 됩니다. 
+
+CImGuiClassManager는 ImGuiClass들을 관리하기 위한 클래스입니다. ImGuiClass에서 필요한 변수가 
+있을 경우 ImGuiClassManager에 있는 Get 함수를 통해서 가져와서 사용할 수 있습니다.
+
+CMainView 클래스 같은 경우는 ImGui Class를 열거나 닫을 수 있도록 하는 클래스 입니다.
+또한 게임 상에 존재하는 모든 오브젝트를 Layer 별로 Hierarchy 창에 띄우고, Perspective에서 
+수정하거나 볼 수 있도록 만들어 놓은 클래스입니다.
+
+Tool Class를 추가하실 때 MainView 클래스에 있는 Ready_ImGuiClass 함수에서 추가하시면 됩니당.
+
+===================================
+# 오후 2:36 2022-10-09
+
+CPathFindViewer_Tool 제작 중 -> 경로를 통해서 텍스쳐 모델 로드 할 수 있도록 만들 예정 (메쉬 먼저)
+
+CModel_Tool 이하 들 추가하여 FBX 로드 하도록 추가 완료
+
+Engine -> Function에 ConverWToS( _wstring to string) ConvertSToW( _string to _wstring) 추가
+Engine -> Function에 Is_Same_Text로 위치 변경 했습니다.
+
+
+===================================
+# 오후 5:30 2022-10-09
+
+Engine_Function.h에 
+
+Convert_Number_S (숫자를 _string화 시켜줌)
+Convert_Number_W (숫자를 _wstring 화 시켜줌)
+Combine_Int (_string 하고 숫자를 합쳐 줌)
+Combine_Int (_wstring하고 숫자 합쳐줌)
+Find_Extension(문자열에서 확장자 찾아줌
+
+FilePathViewer_Tool Class 만들어서 Path 별로 볼 수 있게 만듦
+
+MainView Class 는 왠만하면 건들지 않기 
+
+===================================
+
+오후 3:40 2022-10-10
+
+ModelConverter Tool 제작
+
+사용 방법 
+
+-> Path Find Tool에서 폴더 선택 후 Load Model 혹은 Load Anim Model 클릭 
+-> 해당 폴더에 바이너리화 됨
+-> 프로그램 종료 후 재실행 -> 바이너리화 된 모델들 생성
+
+=========================================
+오전 10:51 2022-10-20
+
+CMethod 함수 추가
+
+저장 로드 용
+	static HANDLE Begin_Save(const _tchar* _pPath);
+	static HANDLE Begin_Load(const _tchar* _pPath);
+
+	template<typename T>
+	static void Save_File_NotString(HANDLE& _hHandle, DWORD& _dwByte, T _Data);
+	static void Save_File_WString(HANDLE& _hHandle, DWORD& _dwByte, const _wstring& _str);
+	static void Save_File_String(HANDLE& _hHandle, DWORD& _dwByte, const _string& _str);
+
+	template<typename T>
+	static T Load_File_NotString(HANDLE& _hHandle, DWORD& _dwByte, const DWORD& _iSize);
+	static _wstring Load_File_WString(HANDLE& _hHandle, DWORD& _dwByte);
+	static _string Load_File_String(HANDLE& _hHandle, DWORD& _dwByte);
+
+XMMatrix 함수
+
+	static _matrix XMMatrixLoadFloat4x4_P(const _float4x4& _Matrix);
+	static _float4x4 XMMatrixStoreFloat4x4_P(_matrix _Matrix);
+	static _float4x4 XMMatrixIdentity_P();
+	static _matrix XMMatrixTranspose_P(const _float4x4& _Matrix);
+	static _float4x4 XMMatrixTranspos4x4_P(const _float4x4& _Matrix);
+	static _matrix XMMatrixInverse_P(const _float4x4& _Matirx);
+	static _float4x4 XMMatrixInverse4x4_P(const _float4x4& _Matrix);
+	static _matrix XMMatrixInverse_P(_matrix _Matrix);
+	static _float4x4 XMMatrixInverse4x4_P(_matrix _Matrix);
+	static _matrix XMMatrixMultiple_P(MATRIXES4X4 Matrixes);
+	static _float4x4 XMMatrixMultiple4x4_P(MATRIXES4X4 Matrixes);
+	static _matrix XMMatrixMultiple_P(MATRIXES Matrixes);
+	static _float4x4 XMMatrixMultiple4x4_P(MATRIXES Matrixes);
+
+	static _float4 XMMatrix4x4GetFloat4(const _float4x4& _Matrix, const _uint& _iIndex);
+	static _float4 XMMatrixGetFloat4( _matrix _Matrix, const _uint& _iIndex);
+
+	static _float3 XMMatrix4x4GetFloat3(const _float4x4& _Matrix, const _uint& _iIndex);
+	static _float3 XMMatrixGetFloat3(_matrix _Matrix, const _uint& _iIndex);
+
+	static _vector XMMatrix4x4GetVector(const _float4x4& _Matrix, const _uint& _iIndex);
+	static _vector XMMatrixGetVector(_matrix _Matrix, const _uint& _iIndex);
+
+	static _matrix XMMatrixSetVector(_vector _vSetVector, const _uint& _iIndex, _matrix  _Matrix);
+	static _matrix XMMatrixSetVector(_vector _vSetVector, const _uint& _iIndex, const _float4x4& _Matrix);
+
+	static _float4x4 XMMatrix4x4SetVector(_vector _vSetVector, const _uint& _iIndex, _matrix  _Matrix);
+	static _float4x4  XMMatrix4x4SetVector(_vector _vSetVector, const _uint& _iIndex, _float4x4  _Matrix);
+
+	static _matrix XMMatrixSetFloat4(const _float4& _vSetVector, const _uint& _iIndex, _matrix  _Matrix);
+	static _matrix XMMatrixSetFloat4(const _float4& _vSetVector, const _uint& _iIndex, const _float4x4& _Matrix);
+
+	static _float4x4 XMMatrix4x4SetFloat4(const _float4& _vSetVector, const _uint& _iIndex, _matrix  _Matrix);
+	static _float4x4  XMMatrix4x4SetFloat4(const _float4& _vSetVector, const _uint& _iIndex, _float4x4  _Matrix);
+
+	static _matrix XMMatrixSetFloat3(const _float3& _vSetVector, const _uint& _iIndex, _matrix  _Matrix);
+	static _matrix XMMatrixSetFloat3(const _float3& _vSetVector, const _uint& _iIndex, const _float4x4& _Matrix);
+
+	static _float4x4 XMMatrix4x4SetFloat3(const _float3& _vSetVector, const _uint& _iIndex, _matrix  _Matrix);
+	static _float4x4  XMMatrix4x4SetFloat3(const _float3& _vSetVector, const _uint& _iIndex, _float4x4  _Matrix);
+
+	static _float4x4 XMMatrix4x4SetScaling(const _float3& _v3Scaling, _matrix _Matrix);
+	static _float4x4 XMMatrix4x4SetScaling(const _float3& _v3Scaling, _float4x4 _Matrix);
+
+	static _matrix XMMatrixSetScaling(const _float3& _v3Scaling, _matrix _Matrix);
+	static _matrix XMMatrixSetScaling(const _float3& _v3Scaling, _float4x4 _Matrix);
+
+	static _float3 Get_Scaling(_matrix _Matrix);
+	static _float3 Get_Scaling4x4(const _float4x4& _Matrix);
+
+
+typedef enum EMatrixRow
+{
+	MATROW_RIGHT, MATROW_UP, MATROW_LOOK, MATROW_POS, MATROW_END
+}MATRIXROW;
+
+MATRIX 용 Row  추가
+
+XMFLOAT4, XMFLOAT3, XMFLOAT2용 추가
+
+=======================================================================
+
+오후 5:24 2022-10-22
+
+Engine_Macro
+
+// 프로토타입
+#define CHECK_CREATE_PROTOTYPE_NOTVALUE(INSTANCE, MESSAGE) \
+if(FAILED(INSTANCE->NativeConstruct_Prototype())) {DEBUGGIN_MESSAGE_PTH(MESSAGE); Safe_Release(INSTANCE); }
+
+// 프로토타입 Value 있는것
+#define CHECK_CREATE_PROTOTYPE_VALUE_1(INSTANCE, VALUE, MESSAGE)\
+if (FAILED(INSTANCE->NativeConstruct_Prototype(VALUE))) { DEBUGGIN_MESSAGE_PTH(MESSAGE);Safe_Release(INSTANCE); }
+
+// Clone 
+#define CHECK_CREATE_CLONE(INSTANCE, VALUE, MESSAGE) \
+if(FAILED(INSTANCE->NativeConstruct_Clone(VALUE))) {DEBUGGIN_MESSAGE_PTH(MESSAGE); Safe_Release(INSTANCE); }
+
+// 현재 상황이 맞을 경우 Message 발생 후 리턴
+#define DEBUG_RETURN_MSG_IFNOT(SITUATION, MESSAGE, RETURN) \
+if(SITUATION){ DEBUGGIN_MESSAGE_PTH(MESSAGE); return RETURN; }
+
+// 현재 상황이 맞을 경우 그냥 리턴
+#define RETURN_IFNOT(SITUATION, RETURN) \
+if(SITUATION){ return RETURN; }
+
+// 그냥 메세지 내고 리턴
+#define DEBUG_RETURN_MSG(MESSAGE, RETURN) \
+DEBUGGIN_MESSAGE_PTH(MESSAGE); return RETURN;
+
+// 쉐이더용-----------------------------------------------------------
+#define SETUP_CONSTANCE_VALUE(SHADER, NAME, VALUE) \
+if(FAILED(SHADER->Set_RawValue(NAME, &VALUE, sizeof(VALUE))) return E_FAIL;
+
+#define SETUP_SRV(SHADER, NAME, VALUE) \
+if(FAILED(SHADER->Set_SRV(NAME, &VALUE))) return E_FAIL;
+
+#define SETUP_UAV(SHADER, NAME, VALUE) \
+if(FAILED(SHADER->Set_UAV(NAME, &VALUE))) return E_FAIL;
+
+#define SETUP_TEXTURE_SRV_NAME(SHADER, TEXTURE, NAME, FILENAME) \
+if(FAILED(TEXTURE->SetUp_ConstantTable_FileName(SHADER, NAME, FILENAME))) return E_FAIL;
+
+#define SETUP_TEXTURE_SRV_INDEX(SHADER, TEXTURE, NAME, INDEX) \
+if(FAILED(TEXTURE->SetUp_ConstantTable_Index(SHADER, NAME, INDEX))) return E_FAIL;
+

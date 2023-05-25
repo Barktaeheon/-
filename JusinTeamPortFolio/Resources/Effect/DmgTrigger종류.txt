@@ -1,0 +1,36 @@
+"HIT_UPPER"
+"HIT_DOWN"
+"STRIKE"
+"BOUND"
+"SPIN"
+"ROLL"
+"HIT_S"
+
+"BLOW"
+"BLOW_BACK"
+
+"HIT_BACK"
+"HIT_BACK_S"
+"HIT_BACK_AIR"
+
+"HIT_FRONT"
+"HIT_FRONT_S"
+"HIT_FRONT_AIR"
+
+"HIT_UP"
+"HIT_UP_S"
+"HIT_UP_AIR"
+
+"HIT_RIGHT"
+"HIT_RIGHT_AIR"
+
+"HIT_LEFT"
+"HIT_LEFT_AIR"
+
+
+
+상대가 "DASH" 혹은 "AIR_DASH" 이면 다른 피격 이펙트
+
+가드 상태이면 안나와도 됨
+"GUARD_STRONG"
+"GUARD_NORMAL"

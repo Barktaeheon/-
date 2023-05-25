@@ -1,0 +1,28 @@
+#?RADIANCE
+FORMAT=32-bit_rle_rgbe
+
+-Y 32 +X 32
+%[àz%YÝz%XÚz%WØz%VÕz%UÓz%UÑz%TÐz%SÎz%RÌz%RËz%QÉz%QÇz$PÆz$OÄz$OÃz$NÁz#NÀz#M¾z#M½z#L»z"Lºz"K¹z"K¸z"K·z!K¶z!Kµz!Kµz!K´z K´z Kµz Lµz%^çz%\ãz%[àz%YÜz%XÙz%W×z%VÔz%UÒz%TÐz%SÎz%SÌz$RËz$QÉz$QÇz$PÆz$OÄz#OÂz#NÁz#N¿z#M¾z"M½z"L»z"Lºz"L¹z!L¸z!L¸z!L·z!L·z L·z L¸z M¹z Nºz%còz%`íz%^èz%\ãz%[ßz%YÜz%XÙz%WÖz%VÔz%UÑz$TÏz$SÍz$RËz$RÉz$QÈz$PÆz#PÄz#OÃz#OÁz"NÀz"N¾z"M½z"M¼z!M»z!M»z!M»z!M»z N»z N¼z O½z P¾z Oºz5{%fûz%côz%aîz%_éz%]äz%[àz%ZÝz%YÛz$W×z$VÓz$UÑz$TÏz$SÍz$TÏz*lü{N¹{#PÅz"PÄz"OÃz"OÁz"OÀz!OÀz!O¿z!O¿z!O¿z PÀz+lþz*kûz%_áz)ZÅzPq£y;{8ˆ{5„{%hÿz%e÷z$bñz$`ëz'dözD¢{M·{'bðz$X×z*gúz$^Ü{9Š{ QÀ{P½{#SËz#SËz"RÈz"QÆz!QÆz!QÅz!RÆz!TÊz!TÉz?“{ SÀ{&fñz'gé{E€ûzjšéy8…|\Ü{@›{9Œ{7‡{5‚{$gýz$döz7†{P¸|Iª|=’{#ZÞz&`êz;Ž{&`èz!VÊ{<{TÀ|&cå{?”{)iûz#ZÙz!VÐz?“{=Š}=ˆ}&hî{@’|C“}]ŽæzÐ¸šzN¾{OÁ{F«{B¡{?š{<“{:{7ˆ{B {:…}T¿}#aß|#`Ü|I§}VÅ|D£{"\áz&gùz%dã| WÊ{SÁ{![Ô{?”{!^âz#göz"`Ü{"`Ü{;‹{H¦{ [Ì{Zfƒ{’€k{]ã{X×{SË{OÀ{K¶{G­{C¥{Až{>˜{C£{7ƒ|#iö{XË|#cá}"^Õ};Š|=’{Gª{;Ž{5€{"hûz"iýz!iûz!jÿzB›{8…{:Š{=‘{A™{Iª{ÂÙþz©¤•z
+9‹|
+6„|gû{aî{\á{WÕ{SË{OÁ{K¸{H±{F«{C¤{L·{<‰}Dœ}Dž|;‰|@”|H«{@š{=“{=“{>”{?—{[Ó{!mú{G¨{I¬{K²{SÂ{Syº{^iƒ{
+E©|
+B¢|
+@›|
+=•|
+:Ž|
+7‡|	5€|f÷{aì{\à{X×{UÏ{SÊ{UÍ{fó{]Þ{Dž|:…}>Ž}Bš|O¼{b°{bµ{P¾{SÅ{WÏ{XÐ{ZÔ{\Ø{`á{Rr£{Nw»{SÉ|QÅ|
+N½|
+K¶|
+H°|
+Fª|
+C¤|
+A|
+?™|
+<“|C¡|
+:|	6„|	5€|;Ž|6|^Ú|9„}S¶}F‰}?ŽW|jÜC|>†J|,â{fñ{C–_|F¾Û{
+7|
+8…|
+:‰|a©{d³{b×|&sò|gò|gö|fõ|_å|?•}XÔ|
+M¼|
+L¹|
+Jµ|L§|H­|G¬|_á|C›}8‚}P¼|%hß|O¨•|OŸ2|FŽ*|Z¸8|lùš{iÓP|nÛD|J¡J|Wíý{K|B‘|z—¹{™ºá{cÜ|;m²|1e®|]Ñ|\Ó|]Õ|aè|9}(€Í|?Ž’|G‡Ô|O‹|g§à|F„Ø|_Ã|eá|=€}a«|(d˜|P˜4|Z´8|dÏu{F6|\¸2|yóA{T±8|[¹4|Z¾C|XºO|YŒ|bƒ«{a˜è{C‰}"e¼|#a«|5q·|:tº|e—ß{/i·|Csœ|Ly˜|Lw”|XŒ°|T„¤|Tƒ¤|R‡°|R¯ò{9Žµ{vš{l–{O«˜{LŽ/|Oœ+|uçK{qÞD{A…'|Yµ1|^Å7|qñ;{ríM{AŠ3|D¥ú{Zó{_Ÿô{Ù¡n}Ê‹J~‰d;~Ñ¹|/â{¾ü{n„}|“¬¦|{…„{±ÕË|}”‰}›´¬|”–{Ôþï|…—Œ|lz‚{O²{‚Êô{t‰Š|wŽy}¨Ìµ|ÆñÑ{LˆA|L—.|„Ãi{i²R{ƒ¤n|n½i{jÀh{F¯¹{jÌŸ{oƒŠ|Ôk1~ëpE~‰`5~×ž`}íÊí{‰Î¦{‚¤Ÿ{µåì{¨ÕÛ{°Üá{¨ÕÜ{·çë{¾ï÷{¾ðö{ŸÇÓ{¢£‹|†j}ÖÃ”}ÿúÝ{ßÞÈ{§²£{„Š~{”˜|{ìå®{‰x_|·ª‰{Ž…g|‡yj{­¯ z‰¤€z¥¿Èzbq{‘}o{ñ¾§zé·ŸzõÀªzÆ–€zþÅªzé·zöÀ§z“td{‹l\{×¥Œz’ta{õ¸œzm\{‘pa{l\{‰~|±½¦{ŽŒy{ùÒ¨zÒ·™z‘~f{|qzé»”zøÃœzåÂ¦zŒxrzƒ€zœ’z”†ˆz‹~z«œšzçùÃzz€e{žštzÍ±zå¸’zž”r{…e{m{´©Œ{¶³Œ{…}b{©¥„{Œƒh{»³Ž{»·{²¥}{„wU|­§~|„zb|øØž{–~X|¾£u|¡Š{‚–{ˆ¥£{¨Ã¯{Œ¯Ÿ{…®§{Š¼½{…¥š{É»{ŠyN|êÙt|ìÑx|æÎw|Î»o|¢™^|˜–_|††Y|…]|~†Z|€Ž\|êü©{{‡Z|‚’_|ƒ‘a|‡”a|‰šb|œ¢m|¢©l|†‹]|‚…X|®®r|°²t|’a|‹_|}†\|ìý®{xƒ\|r€^|Ñì¯{Èà£{Òß˜{ÏÔ’{Ç¥Y}¥ŒO}“‚K}÷ä‰|àÙ†|¿¿z|©ªo| ¤k|’–d|ž¤l|šži|šŸg|š¡j|«´u|¢§m|£¥l|¦ªo|›Ÿh|±¸w|·À}|ºÂ|ÃÏ†|»Ç‚|¶À}|±»z| ¨p|™Ÿi|Œ’c|‰a|ƒ‰]|ƒ‰]|‹“d|ùñ“|àÝˆ|À¿y|¶·u|º¾y|³»x|ÁÊ€|ÀÈ€|ÀÄ}|½Àz|£¦k|§¨m|«¬o|²²r|°¯q|µ²t|¸»w|ÄÅ|ÂÅ~|·¸v|º»v|½Àz|³¹u|˜›f|  i|ª­q|©¯q|¤§l|› h|”–c|¤«p|”›g|®®p|««n|¼¾z|°±r|ÇË‚|ÏÖˆ|ÄÇ€|ÁÂ}|ÀÀ{|ØÛŒ|ÅÈ€|ÌÐ„|àä|ßáŽ|Ö×‰|ÖÖˆ|àã|èì•|îõ˜|ÕÚ‡|¦¢i|´°q|­«m|¡Ÿg|®­n|¶´t|°®p|¢¡h|££i|¶¸v|¸»y|³¸w|¼½y|ÒÔ‡|ÍÍƒ|àä|ÓÒ†|ÙÚŠ|êïš|äæ“|Þß‹|âá|êç“|ìé’|òò–|~Q}ƒS}úýŸ|ñð—|ƒ…S}…S}~€P}„†S}~€P}ó÷™|íî–|íó—|õú|ÔÓ†|ÐÏ‚|ÓÕ†|ÇÉ|ÈÉ|º¸w|ßáŽ|õüŸ|Œ‘Z}ŒZ}„S}ñô—|àÝ‹|ãà‹|ùù›|ùö›|P}„ƒR}„…S}ˆ‡U}‡‡T}‚R}øõ›|€P}‚‚Q}€P}öï˜|âÜŒ|€N}††S}ƒ…Q}€Q}~P}ÔÑ„|ÒÍ‚|ÔÐ…|ÑË‚|ÎÍ|öúž|ˆ‹W}‡‰V}††S}††S}üø|ƒP}ŽX}ŽW}ŽX}••[}ŽX}ˆƒQ}€~O}æÝ‹|õé‘|•“[}‹ŠU}ûû|ëâŽ|ÔÊ|ïê•|òè‘|‚N}ƒ…R}îð•|üÿ |ûøœ|ÚÕ„|ÞÚ‡|ØÒƒ|ÖÔ„|ùüž|üû |ˆ‡S}€P}éã|ÒË|ñì”|…ƒQ}ˆ†S}}N}…„Q}„O}‡‚R}‡„U}…€O}øð–|‹†T}Œ†S}ïç|€|N}øò—|ðé|~M}ˆƒQ}ŽŒU}€~N}ýýž|€|M}ùô›|éæ|ÕÎ‚|¸³p|ÐÆ~|ÞÓƒ|ÖË€|öí’|÷í”|À¸r|Å¿z|éá|ˆƒQ}ˆ…R}€zK}€yK}ùë‘|‡…R}œ›^}Ž‹V}ŠY}Š„S}éÜ‡|èßŒ|ûñ“|„€M}‰‰V}ƒ~O}‹‡W}””Y}‚P}‡…U}óð”|†…R}‚€P}ðë•|ëä|ûï–|ùë“|çÚŠ|àÙˆ|äà|çÞ|ûï”|‡‚Q}€~O}|L}ùï’|êá|€Q}Œ‹W}˜˜^}•–]}÷í“|ýò”|‹„R}ˆ„R}ŒU}”X}Ž‹V}€{L}‡„S}˜š^}W}‡†Q}ûõ—|ƒ€P}üúœ|÷è‘|áÕ†|ÍÁ€|ùñ“|øé|‚|N}Š‡T}•‘X}ŠˆT}ˆ„O}ˆ‚P}‰ŒS}ŒW}ž¢h}˜—_}““\}‰‡R}…‚R}ïæ|ÿ÷™|ˆƒQ}‹W}‹‰W}ƒƒO}öí’|ÛÖˆ|ÛÔŠ|ÏÄ~|€{K}…L}†…Q}ŽW}õæ’|âÔ‚|ÌÁ{|÷í•|‹‰V}‰…Q}ŠU}…„O}÷èŽ|‚zL}Ž‰V}œ˜[}Ÿš]}œ˜^}’Z}“’Z}‘ŒW}‰ƒN}É¹w|ìÛ†|‰W}‚{M}ƒ{N}õã|õì—|ëÙ‡|óæŽ|É»v|´°o|Â¼v|ÛÐ|íãŠ|çØŒ|åÖ†|‹„Q}™˜^}£¤b}š—]}’‹U}‚{K}ÑÂy|íå‹|…ƒO}ƒN}„|L}Ž‡S}ŒT}˜•\}˜`}›•Y}ßÓ‡|Æ³t|Â¶u|Æ¾}|ÓÄ}|¸«n|ÜÖ…|Ã»u|…€O}‚|M}ÙÉ}|‡‚Q|½°q|Ç¾u|ŽS}õè—|œœ`}¡¡`}›œ^}–’Y}ˆQ}øê”|ŠƒR}ÿò–|ŠV}‡R}Ž‰V}…Q}˜•]} žc}žœ_}¡ a}¡¢c}Š†Q}Ç¼v|÷ë–|äÑƒ|ÔÉ}|òð”|ñæ|‚}L}îâŠ|ïåŽ|ÒÈ}|¯¦h|Ê¿||

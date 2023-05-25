@@ -1,0 +1,32 @@
+쉐이더 Create할때 변경사항
+
+- 파일 경로 대신 hlsl이름만 입력하여 생성하도록 변경
+
+변경전
+CShader::Create(m_pDevice, m_pContext, TEXT("../Bin/ShaderFiles/Shader_VtxNorTex.hlsl"), VTXNORTEX_DECLARATION::Element, VTXNORTEX_DECLARATION::iNumElement)
+
+변경후
+CShader::Create(m_pDevice, m_pContext, TEXT("Shader_VtxNorTex.hlsl"), VTXNORTEX_DECLARATION::Element, VTXNORTEX_DECLARATION::iNumElement)
+
+----------------------------------------------------------------------------------------------------------
+
+Engine에 Drawing 매니저 추가
+
+Drawing : DebugDraw를 이용하여 삼각형, 라인, 박스 등 그릴 수 있는 매니저 클래스
+
+// DrawTriangle경우 세 점 위치 입력
+// DrawLine경우 두 점 위치 입력
+// VIEWTYPE : 2D로 그릴 것인지 3D로 그릴 것인지 결정
+// color : 그릴 때 색상 설정
+
+HRESULT	DrawTriangle(const _fvector vPoint1, const _fvector vPoint2, const _fvector vPoint3, VIEWTYPE eType, _fvector color = DirectX::Colors::White);
+HRESULT DrawLine(const _fvector vPoint1, const _fvector vPoint2, VIEWTYPE eType, _fvector color = DirectX::Colors::White);
+HRESULT Draw(const BoundingBox& box, VIEWTYPE eType, _fvector color = DirectX::Colors::White);
+HRESULT Draw(const BoundingOrientedBox& box, VIEWTYPE eType, _fvector color = DirectX::Colors::White);
+HRESULT Draw(const BoundingSphere& sphere, VIEWTYPE eType, _fvector color = DirectX::Colors::White);
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+

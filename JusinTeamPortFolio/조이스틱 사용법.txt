@@ -1,0 +1,19 @@
+왼쪽 조이스틱 -> 이동
+
+X = 공격
+A = 점프 
+Y + 조이스틱 = 스킬 2
+Y  = 스킬 1
+RIGHT SHOULDER = 가드 
+X + 조이스틱 = 강공격
+A + 조이스틱 = 스텝
+Right Trigger = 강공격
+A = 대쉬
+Left Trigger = 궁극기
+Left Shoulder = 개방
+
+RIGHT SHOULDER + 조이스틱 = 밀치기
+RIGHT SHOULDER + B = 스킬3
+RIGHT SHOULDER + X = 잡기
+
+

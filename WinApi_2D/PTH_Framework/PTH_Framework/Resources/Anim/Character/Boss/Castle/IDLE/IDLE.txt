@@ -1,0 +1,16 @@
+Start X = 80
+Real Start X = 145
+Start Y = 100
+Real Start Y = 299
+End X = 327
+Real End X = 262
+End Y = 472
+
+
+WIDTH = 257
+HEIGHT = 372
+
+
+Length = 336
+Prev Next X = 416
+Next X = 481
