@@ -1,17 +1,0 @@
-#?RADIANCE
-FORMAT=32-bit_rle_rgbe
-
--Y 32 +X 32
-‚‚Q}›Ÿc}”•`}’ŽX}Ž‰U}„O}ùó˜|ˆT}’‹V}™“]}W}ˆƒQ}’Y}™–_}€zL}†€Q}”’[}œ—Z} œ^}R}’V}˜“[}™]}“”Z}ñè–|ŒˆR}’ŒV}”Z}——]}“’Z}‹‰T}þö™|¥¦g}œb}˜ša}—–^}’’Y}’‹V}û÷œ|…€P}ˆT}‘V}˜˜]}˜—_}š^}–™^}V}„€O}Œ‡Q}‡T}•–Z}žŸb}²¶p}ª¯n}¦¦c}›™_}œš^}™˜[}•“Y}„€P}ŽW}—“Z}‡„P}ùó™| ¥f}¤§f}¡c}’”]}™›b}•[}‹…S}õç•|ÿö›|ŽˆU}Œ‡S}‘ŽW}’X}ñé’|€tK|¤›c|úç’|ýì|âÛ‚|þû–|ža}Ÿœ^}œš\}¥§e}žŸ`}˜˜[}ŽX}V}W}‰ŠU}‚O}„T}”–`}ŒW}[}˜—`}•‘\}ŽW}‹ˆU}üó˜|÷ë“|üð˜|úï—|ˆ…R}‘X}þýž|ä×‡|Ž„Z|ùí”|òí™|ÿþ |ˆ‡U}€{O}”Z}¢¢a}§©i}ž`}øù›|åá‘|ŽU}—˜Z}îä‹|È½t|úò|ŽŒY}–•]}—™`}Ž\}’‘Z}”\}‹‰U}‰†S}ŒŠY}Y}Ž[}  d}«¯k}¦©h}˜”^}‡ƒU}‹V}’Y}—•[}§©f}ŽˆS}’U}—•Z}–•[}ƒO}×Ë~|…‚R}‡„S}ÕÉ|Å½x|çä|†„O}ùõŸ|~P}„„V}S}ëè—|†…V}“`}Š‹X}‡‡V}¥¨i}”•]}ŒˆU}›a}®®n}¤¥i}˜•]}ªªi}«­k}•˜\}œœ^}–“Z}{N}Š‡S}ŽŠU}W}ŸŸb}Œ‹V}„P}€P}…„P}‚€O}ŒU}àâ•|õö¢|÷÷¢|†‰W}……U}€‚R}úøŸ|”–^}•^}šŸe}šb}ðé”|öïš|€}O}Y}ŽY}˜™`}––_}†ƒT}ùô™|ýóš|òå’|áÕ†|ŠŠT}’Y}››`}“’[}”•\}›œ`}›a}óò”|ÆÃx|ÙØ|âç—|íîœ|ñðŸ|€T}T}åâ“|ëí—|ïï™|îí™|‚Q}ÿú¢|ýü¡|†‡T}‡‡T}ƒQ}ŒW}ƒ€Q}ðí–|îä|ëæ|ÝØ‰|ÓÏ…|÷÷œ|ûøš|Š‹X}‹ŒX}‡†S}ŽŽX}‘Y}‚…S}öúœ|íò£|äê|ÙÜ”|ØÙ‘|Þá•|ßà•|áá–|éèœ|êë›|ëï|ìì˜|õû¡|áÞ|×Ñ‡|ñï™|†‡T}ûôœ|ý÷|íé–|ÞÛŒ|ëç’|ƒR}ÉÆ|ÍÍ‚|ñó™|ƒR}…‡U}‹ŽY}†‰U}‚…S}~ƒS}êð–|ˆŠe|ª­z|ÎÕ’|ÓÜ–|ÔÞ˜|ØÚ“|ÎÑ|ÔØ”|îó£|„W}èéš|ØÚ|ÏÎˆ|¿¼}|ÇÁ~|àÜŽ|×Ñ‰|ÉÄ|ÏÉ‚|çä’|êç•|ææ‘|÷ø|~P}‰X}Œ‘\}—_}”^}éó|áë”|Ýä‘|ÔÖŒ|¸Ã‹|È×—|ËÕ–|ÉÖ—|Ê×™|ÒÛ™|ÃÊ‹|ËÒ‘|¿Ã‡|ÉÎ|ÇË‰|Ñ×’|ØÛ•|ÏÓŒ|ÓÔ|ÔÕ|ÖÕŒ|ÎÑˆ|àä“|íñ›|éë—|çë–|×ÙŒ|ÕÕŠ|ÚÞ|ßå“|ßæ”|æí—|Øã‘|ÄÉƒ|¾Ã€|¼Â~|Íá¡|Ùñ­|ÇÝ |³Á‹|®¹‡|ºÉ“|ÀÐ”|ÏÝœ|ÍÚ™|ÂÊ|¶Àˆ|¾ÈŽ|ÐÜ•|¿Å†|ÅÉˆ|ÌÐ‹|ÆÌˆ|¹½€|ÂÉ…|ÎÓ‹|½À€|¿Å|ËÕ‰|ÁÇ‚|¸¼{|¿Å€|¼Ä€|´¼z|›h|‹Œ^|‘a|¢§o|„X}üû±|äì¦|Ûè©|Îß¥|³Â‘|¾Ñœ|¸Ë–|À×Ÿ|»Ï˜|¸Ë–|¯ÀŒ|ª¸†|ºÈ|¾Í’|¹Å‹|¼ËŒ|¾Ì‹|¢«v|¨±x|¢«t|˜Ÿl|–œk|‘–e|–šg| ¨o|Ÿ¨q|¤°u|›¤n|¦o|¨°t|¯³t|º \}Á¡^}²”X}¡ŠS}P}öá”|½¸|¶½ˆ|›¬z|œ¯†|ªÃ”|—­€|Ÿ±€|³Ê£|ÈÖ¥|Üç­|äê­|ÕÙ |¼Æ“|Ÿ°‡|†Že||‚\|ðþ´{x‚[|t€Z|çý²{v[|xZ|ˆŽa|œh|·°q|Î½v|¢ƒPz¡hNzÃ{WzÔ„_zÃ|[z¯sXz…ZCzÙ–xy’iWy¾ßÀyw±Œ{[ˆd{“ºvz£‰{Ÿ{|íÔ‰|µ¶†|o|¡¨{Ïâ½{ŸŠa{›‘s{õÝ«z‹‡m{…–”{ƒ™˜{†ŸŸ{‡Ÿ™{ž¶­{¹ÍÃ{ÓáÏ{ÎßÈ{œ_EzÍ|UzƒO2{‹T7{ú˜lzÁzXz]BzÑqydRy­qxzÁqzržbzŽfSyˆgF{Õ¿…|k‚‡|»Èº|,ƒÜ{n›Å{V‡–{HŽ¨{b…Š}pŽ}g‚}ÌëÚ|ØìÏ|ÍÞ¾|ÓæÃ|âóÑ|‡‘}}v}žž}Ììo|ã©{˜‹j|»š„{”Èˆ{–Â{uÀŽ{`žV|»ù‰{†v\|ªh|Äœ€{ÿÎœ{»ù~{f¬s|vÉ{sÈ{.œÉ{ý÷Õ|}è·zG¦d{mÉë{T€|•ÙÞ{p˜|¤ÂÅ{óþç{ÀÉ¼{¹¿¹{ÎÜÔ{­½º{´Å¾{F‚}J…¼|–ÛY|™ëJ|S”&}U %}kÓ>|…ÿF|“üG|üÛ¥{Óªu|–tV{žZ|bž‚{7¶Ð{rÄ{'à{IšD|Žò\{C†'|EŒ1|yýÔ{fÏÀ{X®¿{o–|‘³²|¦™r}…dD|Ž\8|Î¯~|±€`{ïÏ¤{Hœ}!b¿|O§~|?€}kÞ8|K¥9|uóA|wëO|%lŒ|Kj‘|[o€|µÖõ{©Æè{$R|?x´|;t¨|3j¦|U®[|V“4|G*|P¥2|+n†|Gœ|U|#O|L³{îîÍ{ÞÒ¢|ÑÃ’|ãÂ’{“w_{É¹™{"që|%Y¦|;—‚|B€$}>"}]Ì7|^È4|bËN|_ª|
-K²|
-I­|
-Hª|O¸|bà|9}!H†}1W}>|º|]œ5|WŸ4|SÙ×{	=Œ|	=‹|A”|H£|H¢|I—|,U‡|T½{úèÎzÛâìzOjƒ{
-TÉ|
-RÄ|SÁ|+˜|XÇ}|sôW|në_|"k™|
-C |
-B|D |WÊ|<ˆ}=‹}F£|J¬|!où|c×|o¯Ã{nÐ·{gï{hï{hï{hî{iñ{Fž|K§|?Ž|D˜|.ø{.}ô{-}ô{N»|J³|I¯|F§|
-BŸ|B—|?Ž|	8ˆ|	6|
-7ƒ|jû{<|cã|Lª};…}WÆ|dé{!fà{Ll¨{9e¯{SÀ{ZÐ{[Ñ{TÂ{VÇ{WÈ{YÌ{[Ñ{]Õ{`Ú{bà{fè{D£|Aœ|
-<’|
-9‰|
-6|fõ{bë{[Ú{VÏ{QÃ{N»{L¶{\×{$hì|&mõ|A•|^Ø{M´{Iª{@—{@–{A—{B™{C›{F¡{G£{H§{K«{M±{P¶{R»{TÀ{=’|K±|6|\Þ{WÒ{RÅ{gô{gó{F¨{@›{>•{<‘{=‘{?•{ `Ý{&nû{!_Ù{$`×|#^Ñ|;†| lûz lûz mÿz7€{8ƒ{:†{;Š{=Ž{@“{B˜{D{G¢{ZÚ{WÑ{\Û{M¹{G¬{C¡{?˜{K±{?–{6‚{"jÿz!göz"eóz%kþz<Œ{A˜{>{(hç|O¯};‚}"]Ñ{Cš{Cš{`ßzaázcæzfëziòzlùz8€{:…{<Š{Kµ{QÁ{fð{]Ü{A{L³{\×{6‚{!cïz#fôzBœ{J¬{9‡{B•|Q¼{ UËz UËzC–|+nô|E˜}$\Ï{-pö|?Š}&aÚ{WÌzXÌzYÐz\Õz^Úzaàzeézjóz@œ{"hô{;ˆ}!]Õ|M¶{!\Ó|H£}=Ž|!ZÛz#]ßz)jüz"XÌ{%^âz*mö|"XÊ{A—{!QÁz'aåz$XÏzM¸z P¼z O³{!R¶| Pµ{ SÂzP¼zQ¾zSÁzUÅzWÊz$fêzG {SÆ{#eì{!]Õ|"_ß{@™{?’|;Œ{#YÙz"UÎz!SÊz!QÆz!PÃz!O¿z$UÍz!M»z;‹{ O¶{-lýz&[Øz"R¼{J±z M·z;ˆ{A•{*gízM´zL³zMµzO¸zP»zR¾zTÃz:Œ{#cñz8ˆ{&cñzMµ{$\ßz"TÎz"SÊz"QÆz"PÃz"OÀz!N½z!M»z!L¹z!K¶z$TÉz>Œ|)`ãz I°z!K´z H­z H¬zH«z J®zJ®zI¬zI¬zJ­zK¯zL±zM³zN¶z#]äz#[Þz#XØz#VÓz"UÏz"SËz"RÈz"PÅz"OÂz"N¿z"M½z"Lºz"L¸z!K¶z!J´z!I²z!I²z!I¯z!I°z G¬z G«z G©z G©zG¨zG¨zG¨zG¨zG¨zH©zIªzJ¬zK®z#YÙz#WÕz#UÑz#TÍz#RÊz#QÇz#PÄz"OÁz"N¿z"M½z"L»z"K¹z"K·z"Jµz!I³z!I±z!H¯z!H®z!G¬z!G«z F©z F¨z F§z F¦zF¦zF¥zF¥zF¥zF¦zG¦zG§zH¨z#VÒz#TÏz#SÌz#RÉz#QÆz#PÄz#OÁz#N¿z#M½z"L»z"L¹z"K¸z"J¶z"J´z"I²z"H°z!H¯z!G­z!G¬z!Fªz!F©z F¨z E¦z E¥z E¥z E¤zE¤zE£zE£zE¤zF¤zF¥z
